@@ -18,7 +18,6 @@ public class Die {
 
 		/**
 		 * Constructor for a Die - any size of die
-		 * 
 		 * @param n number of sides
 		 */
 		Die(int n) {
@@ -28,7 +27,6 @@ public class Die {
 
 		/**
 		 * Randomly assigns a new value to the die
-		 * 
 		 * @return value on top of the die
 		 */
 		public int roll() {

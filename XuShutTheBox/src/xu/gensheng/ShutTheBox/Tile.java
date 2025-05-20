@@ -16,6 +16,10 @@ public class Tile {
 		selected = false;
 		isDown = true;
 	}
+	public void reset() {
+
+		isDown = false;
+	}
 	
 	public boolean isDown() {
 		return isDown;
